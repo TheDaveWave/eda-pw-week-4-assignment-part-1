@@ -76,6 +76,9 @@ function find( value, array ){
   }
 }
 
+console.log('find - should return false:', find(6, [1 , 2 ,3]));
+console.log('find - should return true:', find(2, [1 , 2 ,3]));
+
 // ----------------------
 // Stretch Goals
 // ----------------------
