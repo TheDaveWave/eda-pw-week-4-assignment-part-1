@@ -61,6 +61,7 @@ function getLast( array ) {
 }
 
 console.log('getLast - should return undefined:', getLast());
+console.log('getLast - should return 6', getLast([2, 3, 6]));
 
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
