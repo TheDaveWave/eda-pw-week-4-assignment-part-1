@@ -74,6 +74,7 @@ function find( value, array ){
     } /* else {
       return false;
     } */
+    // above else block would break out of the loop because of the return statement.
   }
   return false;
 }
