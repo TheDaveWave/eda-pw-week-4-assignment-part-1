@@ -33,6 +33,7 @@ function multiplyThree(num1, num2, num3){
   return num1 * num2 * num3;
 }
 
+console.log('Test - should return 24:', multiplyThree(2,4,3));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
