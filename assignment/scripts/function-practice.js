@@ -26,14 +26,14 @@ function addNumbers( firstNumber, secondNumber ) {
   return firstNumber + secondNumber;
 }
 
-console.log('Test - should return 18:', addNumbers(6,12));
+console.log('addNumbers - should return 18:', addNumbers(6,12));
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree(num1, num2, num3){
   return num1 * num2 * num3;
 }
 
-console.log('Test - should return 24:', multiplyThree(2,4,3));
+console.log('multiplyThree - should return 24:', multiplyThree(2,4,3));
 
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
