@@ -94,6 +94,12 @@ function isFirstLetter(letter, string) {
     return false;
   }
 }
+
+//Second solution:
+/* function isFirstLetter(letter, string){
+  return string.startsWith(letter);
+} */
+
 console.log( 'isFirstLetter - should say true', isFirstLetter('a', 'apple') );
 console.log( 'isFirstLetter - should say false', isFirstLetter('z', 'apple') );
 
