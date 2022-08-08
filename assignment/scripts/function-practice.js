@@ -118,8 +118,19 @@ console.log('sumAll - should return 17:',sumAll([4,8,5]));
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
+function positiveNums(arrayOfNums){
+  let newArray = [];
+  for (let num of arrayOfNums) {
+    if (num > 0){
+      newArray.push(num);
+    }
+  }
+  // console.log(arrayOfNums);
+  return newArray;
+}
 
-
+console.log('positiveNums - should return 1,4:',positiveNums([1,-3,4,0,-1]));
+console.log('positiveNums - should return []:',positiveNums([0,-3,-4,-1]));
 
 // 11. Pick a problem from Edabit(https://edabit.com/) or 
 //     CodeWars(https://www.codewars.com/). Then describe it 
