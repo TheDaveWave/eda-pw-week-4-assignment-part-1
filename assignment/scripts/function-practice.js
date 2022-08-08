@@ -67,7 +67,13 @@ console.log('getLast - should return 6', getLast([2, 3, 6]));
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
 function find( value, array ){
-  
+  for (part of array) {
+    if (part === value) {
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
 
 // ----------------------
