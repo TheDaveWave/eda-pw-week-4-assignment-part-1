@@ -29,7 +29,7 @@ function addNumbers( firstNumber, secondNumber ) {
 console.log('Test - should return 18:', addNumbers(6,12));
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
+function multiplyThree(num1, num2, num3){
 
 }
 
